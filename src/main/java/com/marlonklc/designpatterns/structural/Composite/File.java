@@ -1,4 +1,4 @@
-package com.gofdesignpatterns.structural.Composite;
+package com.marlonklc.designpatterns.structural.Composite;
 
 import java.util.List;
 
