@@ -1,7 +1,10 @@
-# Design patterns (GOF and another helpful patterns)
-Divided into three groups
+# Good practices and patterns
+This repository I decided to join all ideas, GOF patterns, good practices and extra patterns that I think interesting (of course I don't put all yet because I intend improving ever :smiley:)
 
-## Behavioral
+## GOF patterns
+### Behavioral
+#### Strategy (coming soon)
+
 ## Creational
 #### Builder (coming soon)
 
@@ -10,7 +13,6 @@ On this pattern I created based on log system which is able to put your log mess
 Principal point of this implementation is on possibility that you can change implementation of logger and everything works normally.\
 On this case I defined to use Scanner.in to get text message and after save this message on file (located on user home path).\
 [link to implementation](https://github.com/marlonklc/design-patterns/blob/master/src/main/java/com/marlonklc/designpatterns/creational/FactoryMethod/FactoryMethodApp.java)
-
 
 ## Structural
 #### Composite
@@ -23,6 +25,10 @@ BONUS: for this particular implementation I made a rudimentary console on System
 `Just run this java main class and input in System.in some linux comands like as cd, mkdir, ls.`
 
 ## Extras (not necessarily from the GOF's book)
-#### Combinator pattern (coming soon)
+#### Combinator pattern
 I created with this pattern a person's validator which you can make validation on your input data on simple way and easy to implement new validations.\
 [link to implementation](https://github.com/marlonklc/design-patterns/blob/master/src/main/java/com/marlonklc/designpatterns/extras/CombinatorPattern/CombinatorPatternApp.java)
+
+#### Fluent interface
+This idea is very great to create your objects on fluent way as if you was describing how to create a domain entity.\
+[link to implementation](https://github.com/marlonklc/design-patterns/blob/master/src/main/java/com/marlonklc/designpatterns/extras/FluentInterface/FluentInterfaceApp.java)
