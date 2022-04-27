@@ -9,7 +9,7 @@ Divided into three groups
 On this pattern I created based on log system which is able to put your log messages on different sort of output.\
 Principal point of this implementation is on possibility that you can change implementation of logger and everything works normally.\
 On this case I defined to use Scanner.in to get text message and after save this message on file (located on user home path).\
-[link to simple implementation](https://github.com/marlonklc/design-patterns/blob/master/src/main/java/com/marlonklc/designpatterns/creational/FactoryMethod/FactoryMethodApp.java)
+[link to implementation](https://github.com/marlonklc/design-patterns/blob/master/src/main/java/com/marlonklc/designpatterns/creational/FactoryMethod/FactoryMethodApp.java)
 
 
 ## Structural
@@ -24,3 +24,5 @@ BONUS: for this particular implementation I made a rudimentary console on System
 
 ## Extras (not necessarily from the GOF's book)
 #### Combinator pattern (coming soon)
+I created with this pattern a person's validator which you can make validation on your input data on simple way and easy to implement new validations.
+[link to implementation](https://github.com/marlonklc/design-patterns/blob/master/src/main/java/com/marlonklc/designpatterns/extras/CombinatorPattern/CombinatorPatternApp.java)
