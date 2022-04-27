@@ -25,4 +25,4 @@ BONUS: for this particular implementation I made a rudimentary console on System
 ## Extras (not necessarily from the GOF's book)
 #### Combinator pattern (coming soon)
 I created with this pattern a person's validator which you can make validation on your input data on simple way and easy to implement new validations.
-[link to implementation](https://github.com/marlonklc/design-patterns/blob/master/src/main/java/com/marlonklc/designpatterns/extras/CombinatorPattern/CombinatorPatternApp.java)
+[link to implementation](https://github.com/marlonklc/design-patterns/blob/master/src/main/java/com/marlonklc/designpatterns/extras/CombinatorPattern/CombinatorPatternApp.java) \

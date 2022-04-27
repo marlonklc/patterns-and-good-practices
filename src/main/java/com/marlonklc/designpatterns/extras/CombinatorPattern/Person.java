@@ -10,7 +10,7 @@ public class Person {
     private Address address;
 
     private Person(String fullName, Integer age, Gender gender, Address address) {
-        Assert.hasText(fullName, "Name cannot me empty.");
+        Assert.hasText(fullName, "Name cannot be empty.");
         Assert.notNull(address, "Age must be defined.");
         Assert.notNull(address, "Gender must be defined.");
         Assert.notNull(address, "Address must be defined.");

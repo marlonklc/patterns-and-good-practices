@@ -1,5 +1,7 @@
 package com.marlonklc.designpatterns.extras.CombinatorPattern;
 
+import org.springframework.util.Assert;
+
 public class Address {
 
     private String zipCode;
@@ -7,6 +9,9 @@ public class Address {
     private String number;
 
     private Address(String zipCode, String streetName, String number) {
+        Assert.hasText(zipCode, "zipCode cannot be empty.");
+        Assert.hasText(streetName, "streetName cannot be empty.");
+        Assert.hasText(number, "number cannot be empty.");
         this.zipCode = zipCode;
         this.streetName = streetName;
         this.number = number;
